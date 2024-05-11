@@ -1,0 +1,96 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/yonghuxinxi/list",
+    "pages/yonghuxinxi/add-or-update",
+    "pages/yonghuxinxi/detail",
+    "pages/jiaoxueshijian/list",
+    "pages/jiaoxueshijian/add-or-update",
+    "pages/jiaoxueshijian/detail",
+    "pages/xueshengqiandao/list",
+    "pages/xueshengqiandao/add-or-update",
+    "pages/xueshengqiandao/detail",
+    "pages/shebeixinxi/list",
+    "pages/shebeixinxi/add-or-update",
+    "pages/shebeixinxi/detail",
+    "pages/shebeiyuyue/list",
+    "pages/shebeiyuyue/add-or-update",
+    "pages/shebeiyuyue/detail",
+    "pages/kechengbiao/list",
+    "pages/kechengbiao/add-or-update",
+    "pages/kechengbiao/detail",
+    "pages/yuyuekecheng/list",
+    "pages/yuyuekecheng/add-or-update",
+    "pages/yuyuekecheng/detail",
+    "pages/yudingshiyanshi/list",
+    "pages/yudingshiyanshi/add-or-update",
+    "pages/yudingshiyanshi/detail",
+    "pages/shiyanshixinxi/list",
+    "pages/shiyanshixinxi/add-or-update",
+    "pages/shiyanshixinxi/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "实验室管理微信小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#ECC100",
+    "borderStyle": "black",
+    "backgroundColor": "#93C107",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/jiaoxueshijian/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "教学实践"
+      },
+      {
+        "pagePath": "pages/shebeixinxi/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "设备信息"
+      },
+      {
+        "pagePath": "pages/kechengbiao/list",
+        "iconPath": "/static/tabs/icon3.png",
+        "selectedIconPath": "/static/tabs/icon3_act.png",
+        "text": "课程表"
+      },
+      {
+        "pagePath": "pages/shiyanshixinxi/list",
+        "iconPath": "/static/tabs/icon4.png",
+        "selectedIconPath": "/static/tabs/icon4_act.png",
+        "text": "实验室信息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
